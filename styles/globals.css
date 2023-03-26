@@ -3,3 +3,21 @@ button {
   background-color: transparent;
   cursor: pointer;
 }
+
+a {
+  text-decoration: none;
+  color: #000;
+}
+
+.hide {
+  font-size: 0;
+  line-height: 0;
+  opacity: 0;
+  width: 0;
+  height: 0;
+  overflow: hidden;
+  visibility: hidden;
+  position: absolute;
+  z-index: -1000;
+  text-indent: -10000em;
+}
