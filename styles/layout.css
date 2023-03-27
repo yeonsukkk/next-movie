@@ -1,0 +1,93 @@
+/* layout.css */
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;500&display=swap');
+/* font-family: 'Noto Sans KR', sans-serif; */
+
+/* navigation */
+html, body {
+  background-color: #212121;
+  min-height: 100vh;
+  position: relative;
+  font-family: 'Noto Sans KR', sans-serif;
+}
+
+header {
+  text-align: center;
+  padding: 1rem 0;
+}
+
+header h1 > a {
+  display: inline-block;
+  position: relative;
+  vertical-align: top;
+  width: 10%;
+  padding: .2rem 1rem;
+}
+
+header h1 > a > img {
+  width: 100%;
+  height: auto;
+}
+
+/* mainVisual */
+.mainVisualWrap img {width: 100%; height: auto;}
+
+.mainVisualWrap .swiper-fade .swiper-slide-active,
+.mainVisualWrap .swiper-fade .swiper-slide-active .swiper-slide-active {
+  background-color: #212121;
+}
+
+.mainVisualWrap .swiper-horizontal>.swiper-pagination-bullets,
+.mainVisualWrap .swiper-pagination-bullets.swiper-pagination-horizontal {
+  width: auto;
+  left: auto;
+  right: 5%;
+}
+
+.mainVisualWrap .swiper-horizontal>.swiper-pagination-bullets .swiper-pagination-bullet,
+.mainVisualWrap .swiper-pagination-horizontal.swiper-pagination-bullets .swiper-pagination-bullet {
+  background-color: #fff;
+  opacity: .5;
+}
+
+.mainVisualWrap .swiper-horizontal>.swiper-pagination-bullets .swiper-pagination-bullet.swiper-pagination-bullet-active {
+  opacity: 1;
+}
+
+.mainVisualWrap .swiper-horizontal>.swiper-pagination-bullets .swiper-pagination-bullet,
+.mainVisualWrap .swiper-pagination-horizontal.swiper-pagination-bullets .swiper-pagination-bullet {
+  margin: 5px 3px;
+}
+
+/* 인기있는 영화 목록 */
+.movieWrap {
+  padding: 3rem 0 10rem 4%;
+}
+.movieWrap h2 {
+  font-size: 1.2rem;
+  margin-bottom: 2rem;
+}
+
+.movieWrap .movieCnt .swiper-slide img {
+  width: 100%;
+  height: auto;
+}
+
+.movieWrap .movieCnt figure {
+  position: relative;
+}
+
+.movieWrap .movieCnt figcaption {
+  position: absolute;
+  background-color: rgba(0,0,0,0.8);
+  width: 100%;
+  padding: 1rem 5%;
+  box-sizing: border-box;
+  bottom: 0;
+  left: 0;
+  text-align: center;
+  display: inline-block;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  font-size: .9rem;
+}

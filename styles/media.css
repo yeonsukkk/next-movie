@@ -1,0 +1,31 @@
+/* web 1025~ */
+@media (min-width: 1025px) {
+  /* 기본폰트 16px */
+  html, body {
+    font-size: 16px;
+  }
+}
+
+/* 낮은 해상도 web, tablet ~1024 */
+@media (max-width: 1024px) {
+  /* 기본폰트 16px */
+  html, body {
+    font-size: 16px;
+  }
+}
+
+/* tablet ~768 */
+@media (max-width: 768px) {
+  /* 기본폰트 14px */
+  html, body {
+    font-size: 14px;
+  }
+}
+
+/* mobile ~480 */
+@media (max-width: 480px) {
+  /* 기본폰트 14px */
+  html, body {
+    font-size: 14px;
+  }
+}
