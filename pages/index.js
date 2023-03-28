@@ -1,11 +1,27 @@
+import { Footer } from "@/component/Footer";
 import { Layout } from "@/component/Layout";
 import { MainVisual } from "@/component/MainVisual";
 import { Nav } from "@/component/Nav";
 import { Product } from "@/component/Product";
 import Head from "next/head";
 import { genreList } from "./api/api";
+import { BtnTop } from "@/component/BtnTop";
+
 
 export default function Home(props) {
+    let scrollFlag = false // top버튼 관련
+  if(typeof(window) === 'object'){
+    window.addEventListener('scroll', function(){
+      // 탑버튼
+      if(window.scrollY > 100 && !scrollFlag) {
+        document.querySelector('.btnTop').classList.add('act')
+        scrollFlag = true
+      }else if(window.scrollY <= 100 && scrollFlag){
+        document.querySelector('.btnTop').classList.remove('act')
+        scrollFlag = false
+      }
+    })
+  }
   return (
     <>
       <Layout>
@@ -20,6 +36,8 @@ export default function Home(props) {
             <MainVisual mainvisual={props.mainvisual} />
             <Product movie={props.movieData} genreList={genreList} />
           </main>
+          <Footer />
+          <BtnTop />
         </div>
       </Layout>
     </>
