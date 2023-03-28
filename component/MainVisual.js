@@ -33,6 +33,7 @@ export const MainVisual = ({mainvisual}) => {
                 width={500}
                 height={300}
                 unoptimized={true}
+                priority
               />
             </SwiperSlide>
           ))

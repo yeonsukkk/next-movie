@@ -24,6 +24,7 @@ export const Product = ({movie}) => {
                       width={500}
                       height={300}
                       unoptimized={true}
+                      priority
                     />
                     <figcaption>{item.title}</figcaption>
                   </figure>
