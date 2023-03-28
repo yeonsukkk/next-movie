@@ -6,10 +6,10 @@ import 'swiper/css/pagination';
 SwiperCore.use([Autoplay, Pagination]);
 
 import Image from "next/image"
-import { changeDate } from "@/pages/api/api";
+import { changeDate, dday } from "@/pages/api/api";
 
 export const ProductItem = ({data, genreList}) => {
-  console.log(data, genreList)
+  // console.log(data, genreList)
   return(
     <>
       <main>
@@ -87,7 +87,7 @@ export const ProductItem = ({data, genreList}) => {
                   <dt>개봉일</dt>
                   <dd>
                     {changeDate(data[0].open)}
-                    <span className="dday">D-2</span>
+                    <span className="dday">{dday(data[0].open)}</span>
                   </dd>
                 </dl>
               </figcaption>
