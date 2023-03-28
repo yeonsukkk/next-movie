@@ -47,7 +47,7 @@ export async function getStaticProps(){
   const res = await fetch('https://ys-next-movie.s3.ap-northeast-2.amazonaws.com/json/mainVisual.json')
   const data = await res.json()
 
-  const movieRes = await fetch('https://ys-next-movie.s3.ap-northeast-2.amazonaws.com/json/movieData.json')
+  const movieRes = await fetch('https://ys-next-movie.s3.ap-northeast-2.amazonaws.com/json/movieData1.json')
   const movieData = await movieRes.json()
 
   return {

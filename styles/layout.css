@@ -67,6 +67,11 @@ header h1 > a > img {
   margin-bottom: 2rem;
 }
 
+.movieCnt {
+  border-radius: .9rem 0 0 0;
+  overflow: hidden;
+}
+
 .movieWrap .movieCnt .swiper-slide img {
   width: 100%;
   height: auto;
@@ -74,6 +79,8 @@ header h1 > a > img {
 
 .movieWrap .movieCnt figure {
   position: relative;
+  border-radius: .9rem .9rem 0 0;
+  overflow: hidden;
 }
 
 .movieWrap .movieCnt figcaption {
@@ -90,6 +97,104 @@ header h1 > a > img {
   overflow: hidden;
   text-overflow: ellipsis;
   font-size: .9rem;
+}
+
+/* ProductItem */
+.productItemWrap > div img {
+  width: 100%;
+  height: auto;
+}
+
+.productItemWrap .swiper-horizontal>.swiper-pagination-bullets .swiper-pagination-bullet,
+.productItemWrap .swiper-pagination-horizontal.swiper-pagination-bullets .swiper-pagination-bullet {
+  background-color: #fff;
+  opacity: .5;
+}
+
+.productItemWrap .swiper-horizontal>.swiper-pagination-bullets .swiper-pagination-bullet.swiper-pagination-bullet-active {
+  opacity: 1;
+}
+
+.productItemWrap .swiper-horizontal>.swiper-pagination-bullets .swiper-pagination-bullet,
+.productItemWrap .swiper-pagination-horizontal.swiper-pagination-bullets .swiper-pagination-bullet {
+  margin: 0 3px;
+}
+
+.productItemWrap .infoWrap {
+  box-sizing: border-box;
+  padding: 10% 5%;
+}
+
+.productItemWrap figure {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.productItemWrap .poster {
+  width: 30%;
+}
+
+.productItemWrap .poster img {
+  width: 100%;
+  height: auto;
+}
+
+.productItemWrap figcaption {
+  width: 65%;
+}
+
+.productItemWrap figure dl {
+  font-size: 1.1rem;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  margin-bottom: .5em;
+}
+
+.productItemWrap figure dl.genre {
+  font-weight: 300;
+  font-size: 1rem;
+  margin-bottom: .1em;
+}
+
+.productItemWrap figure dl.title {
+  font-size: 1.5rem;
+  font-weight: 500;
+}
+
+.productItemWrap figure dt {
+  color: rgba(255,255,255,.7);
+  width: 4rem;
+}
+
+.productItemWrap figure dd {
+  width: calc(100% - (4rem + 5px));
+  line-height: 1.2;
+  word-break: keep-all;
+}
+
+.productItemWrap figure dd span.dday {
+  color: red;
+  display: inline-block;
+  font-size: .8em;
+  margin-left: .5em;
+  padding: .1em .7em .2em;
+  border: 1px solid red;
+}
+
+.productItemWrap .subscript {
+  margin-top: 2em;
+}
+
+.productItemWrap .subscript dt {
+  font-size: 1.4rem;
+  margin-bottom: .5em;
+}
+
+.productItemWrap .subscript dd {
+  line-height: 1.3;
+  word-break: keep-all;
 }
 
 /* Footer */
@@ -139,4 +244,9 @@ footer > div > p {
   z-index: 1000;
   color: #fff;
   padding: .5rem;
+  display: none;
+}
+
+.btnTop.act {
+  display: block;
 }
