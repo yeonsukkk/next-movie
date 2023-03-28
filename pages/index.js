@@ -7,7 +7,6 @@ import Head from "next/head";
 import { genreList } from "./api/api";
 import { BtnTop } from "@/component/BtnTop";
 
-
 export default function Home(props) {
     let scrollFlag = false // top버튼 관련
   if(typeof(window) === 'object'){
