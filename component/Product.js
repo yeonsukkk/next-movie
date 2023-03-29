@@ -10,8 +10,21 @@ export const Product = ({movie}) => {
       <h2>인기있는 영화 목록</h2>
       <div className="movieCnt">
         <Swiper
-          slidesPerView={2.5}
+          slidesPerView={3.3}
           spaceBetween={15}
+          breakpoints={{
+            480: {
+              slidesPerView: 3.3
+            },
+            768: {
+              slidesPerView: 4.3,
+              spaceBetween: 20
+            },
+            1024: {
+              slidesPerView: 5.3,
+              spaceBetween: 20
+            }
+          }}
         >
           {
             movie?.map(item => (
