@@ -1,8 +1,27 @@
 /* web 1025~ */
+@media (min-width: 1200px){
+  /* 기본폰트 16px */
+  html, body {
+    font-size: 16px;
+  }
+  .productItemWrap .infoWrap {
+    padding: 10% 0;
+    width: 1200px;
+    margin: 0 auto;
+  }
+  .detailImgWrap {
+    width: 1000px;
+    margin: 0 auto;
+  }
+}
 @media (min-width: 1025px) {
   /* 기본폰트 16px */
   html, body {
     font-size: 16px;
+  }
+  .detailImgWrap {
+    width: 700px;
+    margin: 0 auto;
   }
 }
 
@@ -20,6 +39,9 @@
   html, body {
     font-size: 14px;
   }
+  .detailImgWrap {
+    width: 100%;
+  }
 }
 
 /* mobile ~480 */
@@ -27,5 +49,11 @@
   /* 기본폰트 14px */
   html, body {
     font-size: 14px;
+  }
+  header h1 > a {
+    width: 4rem;
+  }
+  .productItemWrap figure dl {
+    font-size: .9rem;
   }
 }
