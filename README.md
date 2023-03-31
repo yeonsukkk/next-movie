@@ -1,6 +1,6 @@
 # 영화 사이트
 현재 상영중인 영화, 상영 예정인 영화 목록을 볼 수 있는 사이트<br />
-<a href="https://next-movie-sepia.vercel.app/" title="사이트로 이동" target="_blank">사이트방문</a>
+[사이트방문](https://next-movie-sepia.vercel.app/){: target="_blank"}
 
 ## 목차
 1. [언어&#x0026;툴](#언어&툴)
@@ -17,7 +17,7 @@
 <br />
 
 ### 💡스토리보드
-<a href="https://www.figma.com/file/axHPHVJauw2uOHcOWK6CVd/%EB%84%A5%EC%8A%A4%ED%8A%B8%ED%8F%AC%ED%8A%B8%ED%8F%B4%EB%A6%AC%EC%98%A41-%EC%98%81%ED%99%94?node-id=0-1&t=qe8DGN26TiuLikqv-0" target="_blank">스토리보드로 이동하기</a>
+[스토리보드](https://www.figma.com/file/axHPHVJauw2uOHcOWK6CVd/%EB%84%A5%EC%8A%A4%ED%8A%B8%ED%8F%AC%ED%8A%B8%ED%8F%B4%EB%A6%AC%EC%98%A41-%EC%98%81%ED%99%94?node-id=0-1&t=qe8DGN26TiuLikqv-0){: target="_blank"}
 <img src="https://img.shields.io/badge/figma-F24E1E?style=000000&logo=figma&logoColor=fff"/>
 <br />
 <br />
