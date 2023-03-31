@@ -3,22 +3,16 @@
 [사이트방문](https://next-movie-sepia.vercel.app/)
 
 ## 목차
-1. [언어&#x0026;툴](#💡언어&툴)
-2. [스토리보드](#💡스토리보드)
-3. [구조](#💡구조)
-4. [페이지](#💡페이지)
-5. [기능설명](#💡기능설명)
+1. [언어&#x0026;툴](#언어&툴)
+2. [스토리보드](#스토리보드)
+3. [구조](#구조)
+4. [페이지](#페이지)
+5. [기능설명](#기능설명)
 
 <br />
 
 ### 💡언어&#x0026;툴
-<img src="https://img.shields.io/badge/HTML5-E34F26?style=E34F26&logo=HTML5&logoColor=fff"/>
-<img src="https://img.shields.io/badge/CSS3-1572B6?style=1572B6&logo=CSS3&logoColor=fff"/>
-<img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=F7DF1E&logo=JavaScript&logoColor=333"/>
-<img src="https://img.shields.io/badge/Node.js-339933?style=339933&logo=Node.js&logoColor=fff"/>
-<img src="https://img.shields.io/badge/npm-CB3837?style=CB3837&logo=npm&logoColor=fff"/>
-<img src="https://img.shields.io/badge/next.js-000000?style=000000&logo=next.js&logoColor=fff"/>
-<img src="https://img.shields.io/badge/vercel-000000?style=000000&logo=vercel&logoColor=fff"/>
+<img src="https://img.shields.io/badge/HTML5-E34F26?style=E34F26&logo=HTML5&logoColor=fff"/> <img src="https://img.shields.io/badge/CSS3-1572B6?style=1572B6&logo=CSS3&logoColor=fff"/> <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=F7DF1E&logo=JavaScript&logoColor=333"/> <img src="https://img.shields.io/badge/Node.js-339933?style=339933&logo=Node.js&logoColor=fff"/> <img src="https://img.shields.io/badge/npm-CB3837?style=CB3837&logo=npm&logoColor=fff"/> <img src="https://img.shields.io/badge/next.js-000000?style=000000&logo=next.js&logoColor=fff"/> <img src="https://img.shields.io/badge/vercel-000000?style=000000&logo=vercel&logoColor=fff"/>
 <br />
 <br />
 
@@ -50,10 +44,7 @@ next-movie
 │  └─ _document.js
 ├─ public
 │  ├─ favicon.ico
-│  ├─ logo.webp
-│  ├─ next.svg
-│  ├─ thirteen.svg
-│  └─ vercel.svg
+│  └─ logo.webp
 ├─ styles
    ├─ globals.css
    ├─ Home.module.css
@@ -65,7 +56,6 @@ next-movie
 ### 💡페이지
   1. 홈
   2. 상세페이지
-<br />
 <br />
 
 ### 💡기능설명
@@ -106,6 +96,8 @@ next-movie
       - 메인 비주얼 영역 & 인기있는 영화 목록
         - Swiper 이용하여 가져온 데이터로 슬라이드 구현
         - 인기있는 영화 목록 리스트 클릭 시 상세페이지로 이동
+<br />
+<br />
 
   2. 상세페이지<br/>
     *pages>movie>[id]>index.js*
